@@ -128,18 +128,6 @@ body {
 
 }
 
-/* wrapper sizing for short screens */
-@media screen and (max-height: 667px) {
-    .wrapper {
-        height: 93vh;
-    }
-}
-
-@media screen and (min-height: 670px) {
-    .wrapper {
-        height: 80vh;
-    }
-}
 
 .information-section {
     display: flex;
