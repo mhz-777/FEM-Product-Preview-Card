@@ -244,6 +244,72 @@ body {
 
 /* MOBILE STYLING END */
 
+/* DESKTOP STYLING START */
+
+@media screen and (min-width: 50em) {
+
+    /* hide mobile image */
+    .mobile-image {
+      display: none;
+    }
+
+    /* reveal desktop image */
+    .desktop-image {
+      display: block;
+    }
+
+    /* wrapper styling */
+
+    .wrapper {
+      
+      /* flex */
+      display: flex;
+      justify-content: center;
+
+      /* container sizing */
+      width: 560px;
+      height: 450px;
+    }
+
+    /* split container into two halves */
+    .image-section {
+      width: 50%;
+    }
+
+    .information-section {
+      width: 50%;
+    }
+
+    /* allow image to take whole height */
+    .desktop-image {
+      min-height: 100%;
+      min-width: 100%;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+    }
+
+    /* button styling */
+    .atc-button {
+
+      /* margin */
+      margin-top: 2rem;
+
+      /* pointer */
+      cursor: pointer;
+
+    }
+
+    .atc-button:hover {
+      background-color: rgb(11, 74, 11);
+    }
+
+}
+
+
+
+
+/* DESKTOP STYLING END */
+
 
 
 
